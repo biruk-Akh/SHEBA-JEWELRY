@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Authentic Gold & Silver Jewelry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo" class="logo">
+    <h1>Gold & Silver Treasures</h1>
+    <div class="cart">🛒 Cart: <span id="cart-count">0</span></div>
+  </header>
+
+  <nav>
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('gold')">Gold</button>
+    <button onclick="filterProducts('silver')">Silver</button>
+  </nav>
+
+  <section id="products" class="products">
+    <!-- Products inserted by JavaScript -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
